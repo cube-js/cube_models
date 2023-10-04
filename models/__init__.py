@@ -13,7 +13,7 @@ class MeasureType(str, Enum):
 class DimensionType(str, Enum):
     NUMBER = "number"
     STRING = "string"
-    TIMESTAMP = "timestamp"
+    TIMESTAMP = "time"
 
 
 class Dimension(BaseModel):
